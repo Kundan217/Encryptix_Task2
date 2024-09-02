@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kundan Mandal - Web Developer</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- FontAwesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <img src="KM.png" alt="Logo">
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-xmark menu-close" onclick="closeMenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars menu-toggle" onclick="openMenu()"></i>
+        </nav>
+    </header>
+    
+    <!-- Home/Introduction Section -->
+    <section id="home">
+        <div class="container">
+            <div class="intro">
+                <h1>Hello, I'm <span>Kundan Mandal</span></h1>
+                <h2>Aspiring Web Developer</h2>
+                <p>Welcome to my portfolio! I'm passionate about creating responsive, user-friendly websites and web applications. Explore my work and let's build something amazing together.</p>
+                <a href="#projects" class="btn">View My Work</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about">
+        <div class="container">
+            <div class="about-content">
+                <img src="kundan.png" alt="My image">
+                <div class="about-text">
+                    <h2>About Me</h2>
+                    <p>Hello! I'm <strong>Kundan Mandal</strong>, a passionate Web Developer with a love for creating dynamic and responsive web applications. I have a background in Computer Science and experience in Web Development. I enjoy working with HTML, CSS, and JavaScript and am always eager to learn and take on new challenges.</p>
+                    <p>When I'm not coding, you can find me exploring the world of technology. I believe in continuous learning and strive to stay updated with the latest industry trends.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="container">
+            <div class="project-list">
+                <!-- Project 1 -->
+                <div class="project-item">
+                    <img src="project1.png" alt="Project 1 Screenshot">
+                    <div class="project-info">
+                        <h3>Project Title 1</h3>
+                        <p>This project is a [brief description of what the project is about]. I worked on [mention your role or what you did].</p>
+                        <p><strong>Technologies Used:</strong> HTML, CSS, JavaScript</p>
+                        <a href="https://github.com/yourusername/project1" class="project-link"><i class="fa-brands fa-github"></i> View Code</a>
+                        <a href="https://live-demo-link.com" class="project-link"><i class="fa-solid fa-arrow-right"></i> Live Demo</a>
+                    </div>
+                </div>
+                <!-- Add more project items as needed -->
+                <div class="project-item">
+                    <img src="path/to/project2-image.jpg" alt="Project 2 Screenshot">
+                    <div class="project-info">
+                        <h3>Project Title 2</h3>
+                        <p>This project is a [brief description of what the project is about]. I worked on [mention your role or what you did].</p>
+                        <p><strong>Technologies Used:</strong> Python, Django, MySQL</p>
+                        <a href="https://github.com/yourusername/project2" class="project-link"><i class="fa-brands fa-github"></i> View Code</a>
+                        <a href="https://live-demo-link.com" class="project-link"><i class="fa-solid fa-arrow-right"></i> Live Demo</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="container">
+            <div class="skills-list">
+                <!-- Programming Languages -->
+                <div class="skill-category">
+                    <h3>Programming Languages</h3>
+                    <ul>
+                        <li><i class="fa-brands fa-js"></i> JavaScript</li>
+                        <li><i class="fa-brands fa-python"></i> Python</li>
+                        <li><i class="fa-solid fa-code"></i> C++</li>
+                        <li><i class="fa-brands fa-java"></i> Java</li>
+                    </ul>
+                </div>
+                <!-- Frameworks -->
+                <div class="skill-category">
+                    <h3>Frameworks </h3>
+                    <ul>
+                        <li><i class="fa-brands fa-python"></i> Django</li>
+                    </ul>
+                </div>
+                <!-- Tools -->
+                <div class="skill-category">
+                    <h3>Tools & Technologies</h3>
+                    <ul>
+                        <li><i class="fa-solid fa-code-branch"></i> Git & GitHub</li>
+                        <li><i class="fa-solid fa-database"></i> MySQL</li>
+                        <li><i class="fa-brands fa-html5"></i> HTML</li>
+                        <li><i class="fa-brands fa-css3"></i> CSS</li>
+                    </ul>
+                </div>
+                <!-- Soft Skills -->
+                <div class="skill-category">
+                    <h3>Soft Skills</h3>
+                    <ul>
+                        <li><i class="fa-solid fa-lightbulb"></i> Problem-Solving</li>
+                        <li><i class="fa-solid fa-users"></i> Teamwork</li>
+                        <li><i class="fa-solid fa-comments"></i> Communication</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Me Section -->
+    <section id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact Me</h1>
+                        <p><i class="fa-solid fa-paper-plane"></i> kundancse02@gmail.com</p>
+                        <p><i class="fa-solid fa-phone"></i>7665523158</p>
+                        <div class="social-icons">
+                            <a href=""><i class="fa-brands fa-github"></i></a>
+                            <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                            <a href=""><i class="fa-brands fa-twitter"></i></a>
+                        </div>
+                        <a href="image/mycv.pdf" download class="btn btn2">Download CV</a>
+                    </div>
+                    <div class="contact-right">
+                        <form>
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="email" name="Email" placeholder="Your Email" required>
+                            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                            <button type="submit" class="btn btn2">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Kundan Mandal. All Rights Reserved.</p>
+        <p>Designed by <a href="https://kundancse.netlify.app/">Kundan Mandal</a></p>
+    </footer>
+</body>
+</html>
+        
+        
